@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    
+    <class name="com.bean.Student" table="Student" >
+    <id name="S_id" column="s_id"/>
+    <property name="Name" column="Name"></property>
+    <property name="Address" column="Address"></property>
+    <property name="Marks" column="Marks"></property>
+    </class>
+    </hibernate-mapping>
